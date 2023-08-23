@@ -46,5 +46,8 @@ files:
   visible: false
   learner_created: false
 feedback_link: https://docs.google.com/forms/d/e/1FAIpQLScqAfU990a9LiNolBdSrMVInejEmaMmyagLTJmhwUwjUysffg/viewform?usp=pp_url&entry.2103429047=Horror+Trees+/+Entropy
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Wed, 23 Aug 2023 23:39:08 UTC"
 record: -1
