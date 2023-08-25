@@ -1,9 +1,9 @@
 type: framework
 content:
-- Vectorize
-- Naive Bayes
-- Laplace Smoothing
-- Predict
-- Conclusion
+  - Vectorize
+  - Naive Bayes
+  - Laplace Smoothing
+  - Predict
+  - Conclusion
 is_template_based: false
-current_task: 0
+current_task: 3
