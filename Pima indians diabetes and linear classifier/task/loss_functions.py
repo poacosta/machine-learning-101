@@ -2,12 +2,8 @@ import numpy as np
 
 
 def log_loss(M):
-    return  # Here you need to return a pair of vectors:
-    # the logarithmic loss function from the task description
-    # and its derivative. np.log2 and np.exp could be useful.
+    return np.log2(1 + np.exp(-M)), -1 / (np.log(2)*(1 + np.exp(M)))
 
 
 def sigmoid_loss(M):
-    return # Here you need to return a pair of vectors:
-    # the sigmoid loss function from the task description
-    # and its derivative. np.log2 and np.exp could be useful.
+    return 2 / (1 + np.exp(M)), -2 * np.exp(M) / (np.exp(M) + 1) ** 2
